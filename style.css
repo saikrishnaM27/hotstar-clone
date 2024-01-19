@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #fff;
+  background-color: #0f1014;
+}
+
+header {
+  position: fixed;
+}
+
+header .nav {
+  text-align: center;
+  width: 6vw;
+}
+
+.mt3 {
+  margin-top: 3vh;
+}
+
+.subscribe button {
+  padding: 5px 10px;
+  border-radius: 9px;
+  border: none;
+  cursor: pointer;
+}
+
+.navItems {
+  position: relative;
+  top: 6vh;
+}
+
+.navItem {
+  color: #fff;
+  padding: 25px 0;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-top: none;
+}
+
+.navItem span {
+  display: none;
+}
+
+.navItem:hover span {
+  font-size: larger;
+  display: inline-block;
+}
+
+main {
+  position: absolute;
+  left: 6vw;
+  margin: 1vh 1vw;
+}
+
+.flex {
+  display: flex;
+}
+
+.partOne img {
+  width: 500px;
+  height: 300px;
+  margin-right: 10px;
+}
+
+.adLogo img {
+  width: 60px;
+  height: 60px;
+  margin: 0 10px;
+}
+
+.PreOrder button {
+  position: absolute;
+  bottom: 30px;
+  right: 40px;
+  border: none;
+  border-radius: 0.5vw;
+  padding: 1vh 2vw;
+  color: #fff;
+  cursor: pointer;
+  background-color: #252833;
+}
+
+.partTwo {
+  position: relative;
+  left: -2vw;
+  padding: 3vh;
+  box-sizing: content-box;
+  background-color: #0f101490;
+  backdrop-filter: blur(6px);
+}
+
+.carousel {
+  display: flex;
+}
+
+.card {
+  height: 300px;
+  width: 220px;
+  margin-right: 10px;
+}
+
+.poster img {
+  height: 300px;
+  width: 220px;
+  object-fit: cover;
+}
+
+.posterDetails {
+  text-align: center;
+  background-color: #000000cc;
+  position: absolute;
+  width: 220px;
+  bottom: 0;
+  display: none;
+}
+.posterDetails p {
+  font-size: small;
+  text-align: left;
+  padding: 3px;
+}
+.card button {
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+  border: none;
+}
+.card:hover {
+  cursor: pointer;
+  scale: 1.2;
+  transition: 0.3s;
+
+  .posterDetails {
+    display: inline-block;
+    padding: 10px 0;
+  }
+}
+
+.row {
+  margin: 15px 0;
+}
+
+.popularChannels img {
+  max-width: 350px;
+  height: 150px;
+}
+
+.popularChannels img:hover {
+  scale: 1.2;
+  transition: 0.6s;
+}
+
+.jcc {
+  justify-content: space-between;
+}
+
+.video-card-container {
+  position: relative;
+  width: 92%;
+  margin: auto;
+  height: 10vw;
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.video-card {
+  position: relative;
+  min-width: calc(100% / 5 - 10px);
+  width: calc(100% / 5 - 10px);
+  height: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.video-card-image,
+.card-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-video {
+  position: absolute;
+}
+.video-card:hover {
+  scale: 1.1;
+  z-index: 1;
+}
+
+.video-card:hover .video-card-image {
+  display: none;
+}
+
+footer div {
+  text-align: center;
+  justify-content: space-around;
+}
+
+footer i {
+  font-size: x-large;
+  padding: 20px;
+}
+
+footer div div div {
+  margin: 15px 0;
+}
+
+.fLeft {
+  float: left;
+  text-align: left;
+}
+
+.fRight {
+  float: right;
+}
+
+.fRight img {
+  width: 120px;
+  height: 40px;
+}
